@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+.telaInicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url("bg-menina.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    margin: 0;
+    
+}
+
+.headerMenu {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin:-5vw;
+    
+    
+}
+.menuO {
+    color: white;
+    font-size: 16pt;
+ 
+}
+.menuO , a{
+    text-decoration: none;
+}
+
+.menuO:hover{
+    color: #F45B69;
+    
+}
+
+.scroll{
+    color: white;
+    text-decoration-line: none;
+    font-size: 16pt;
+}
+
+
+.scroll:hover{
+    color: #F45B69;
+    
+   
+}
+
+.logo{
+   height: 120px;
+   width: 140px;
+}
+
+.chamada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: white;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.botaoInicialHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    width: 30%;
+    align-self: center;
+    justify-content: space-evenly;
+}
+
+.botaoCadastroHeader{
+    font-size: 10pt;
+    border-radius: 23px;
+    background-color: #F45B69;
+    color: white;
+    border: 1px solid #F45B69;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+}
+.botaoComoFunciona{
+    font-size: 10pt;
+    border-radius: 23px;
+    background-color: #7b1fa2;
+    color: white;
+    border: 1px solid #7b1fa2;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.botaoCadastroHeader:hover {
+    background-color: #F45B69;
+    border: transparent;
+}
+.botaoComoFunciona:hover{
+    background-color: #7b1fa2;
+
+}
+
+#botaoIdComoFunciona{
+    color: white;
+    text-decoration-line: none;
+}
